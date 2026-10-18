@@ -1,0 +1,125 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Arial, sans-serif;
+background: #f4f6f8;
+color: #222;
+min-height: 100vh;
+}
+
+.app {
+width: 90%;
+max-width: 650px;
+margin: 60px auto;
+}
+
+h1 {
+text-align: center;
+font-size: 32px;
+margin-bottom: 8px;
+}
+
+.subtitle {
+text-align: center;
+color: #777;
+margin-bottom: 30px;
+}
+
+/* Form */
+
+.task-form {
+background: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+input,
+textarea {
+width: 100%;
+padding: 13px;
+margin-bottom: 15px;
+border: 1px solid #ddd;
+border-radius: 8px;
+font-size: 15px;
+font-family: inherit;
+outline: none;
+}
+
+input:focus,
+textarea:focus {
+border-color: #555;
+}
+
+textarea {
+resize: vertical;
+}
+
+button {
+width: 100%;
+padding: 13px;
+border: none;
+border-radius: 8px;
+background: #222;
+color: white;
+font-size: 15px;
+cursor: pointer;
+}
+
+button:hover {
+background: #444;
+}
+
+/* Tasks */
+
+.task-list {
+margin-top: 30px;
+}
+
+.task {
+background: white;
+padding: 20px;
+margin-bottom: 15px;
+border-radius: 10px;
+border-left: 4px solid #222;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+.task h3 {
+margin-bottom: 8px;
+}
+
+.task p {
+color: #666;
+line-height: 1.5;
+margin-bottom: 15px;
+}
+
+.task-actions {
+display: flex;
+gap: 10px;
+}
+
+.task-actions button {
+width: auto;
+padding: 8px 15px;
+font-size: 14px;
+}
+
+.edit-btn {
+background: #555;
+}
+
+.delete-btn {
+background: #d9534f;
+}
+
+.empty {
+text-align: center;
+color: #999;
+margin-top: 30px;
+}
